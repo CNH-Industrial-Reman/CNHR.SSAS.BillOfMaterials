@@ -20,8 +20,20 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Fact BOM.dim</Name>
-      <FullPath>Fact BOM.dim</FullPath>
+      <Name>Site.dim</Name>
+      <FullPath>Site.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Root Part.dim</Name>
+      <FullPath>Root Part.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Detail.dim</Name>
+      <FullPath>Detail.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Component.dim</Name>
+      <FullPath>Component.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -46,6 +58,20 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>CNH Reman Warehouse CSI</Id>
+            <Name>CNH Reman Warehouse CSI</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=datawarehouse\busintel;Integrated Security=SSPI;Initial Catalog=CNHReman_Warehouse</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>CNH Reman Warehouse CSI</Id>
+            <Name>CNH Reman Warehouse CSI</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
         <DeploymentServerEdition>EnterpriseCore</DeploymentServerEdition>
       </Options>
     </Configuration>

@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cc037127-8f51-47c1-879b-d45463f33373" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>CNH Reman Warehouse</ID>
   <Name>CNH Reman Warehouse</Name>
   <CreatedTimestamp>2026-03-24T16:22:29.806667Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5000" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="34802" y="17286" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5000" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32032" y="12894" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
                   </font>
@@ -50,7 +50,7 @@
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
               </dds>
-            </DiagramLayout>
+</DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-5000</DiagramViewPortLeft>
@@ -66,172 +66,179 @@
   <DataSourceID>CNH Reman Warehouse CSI</DataSourceID>
   <Schema>
     <xs:schema id="CNH_x0020_Reman_x0020_Warehouse" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="CNH_x0020_Reman_x0020_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:element name="CNH_x0020_Reman_x0020_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="fc60060c-c1a2-4651-8202-785d9a380496">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_Fact_BOM" msprop:QueryBuilder="SpecificQueryBuilder" msprop:IsLogical="True" msprop:QueryDefinition="SELECT fb.RootPartId, fb.SiteRef, fb.PartId, fb.Lvl, fb.Sort, fb.SortPath, fb.Name, fb.ItemDescription, fb.Stocked, fb.Source, fb.Phantom, fb.Job, fb.PLAN_CODE, fb.Oper, fb.Seq, fb.PullID, fb.OptGrp, fb.OptID, fb.Equiv, fb.OrigQty, fb.Repl, fb.NetQty, fb.ExtQuantity, fb.ExtRepl, fb.RunHrs, &#xD;&#xA;             fb.UpdatedBy, fb.RecordDate, fb.LoadBatchID, fb.ComboKey, IM.Uf_CNH_EngineeringFamilyCode, IM.Uf_CNH_EngineeringSubFamilyCode, DI.ProductCodeDescr, IM2.cur_u_cost, fb.ExtQuantity * IM2.cur_u_cost AS ExtCost&#xD;&#xA;FROM   Fact_BOM AS fb LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Warehouse_CSI.dbo.Dim_Item AS DI ON fb.RootPartId = DI.Item AND fb.SiteRef = DI.Site LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Stagearea_CSI.dbo.item_mst AS IM ON IM.item = fb.RootPartId AND IM.site_ref = fb.SiteRef LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Stagearea_CSI.dbo.item_mst AS IM2 ON IM2.item = fb.PartId AND IM2.site_ref = fb.SiteRef" msprop:FriendlyName="Fact_BOM" msprop:TableType="View" msprop:DbTableName="Fact_BOM">
+            <xs:element name="dbo_Fact_BOM" msprop:QueryBuilder="SpecificQueryBuilder" msprop:IsLogical="True" msprop:design-time-name="5a906754-66ee-43f9-a158-ce8f5d874a96" msprop:QueryDefinition="SELECT fb.RootPartId AS [Root Part], fb.SiteRef AS Site, fb.PartId AS Component, fb.Lvl AS [Level], fb.Sort, fb.SortPath, fb.Name, fb.ItemDescription AS [Component Description], fb.Stocked, fb.Source, fb.Phantom, fb.Job, fb.PLAN_CODE AS [Plan Code], fb.Oper AS Operation, &#xD;&#xA;             fb.Seq AS Sequence, fb.PullID, fb.OptGrp AS [Option Group], fb.OptID AS [Option ID], fb.Equiv AS Equivalent, fb.OrigQty AS Quantity, fb.Repl, fb.NetQty, fb.ExtQuantity, fb.ExtRepl, fb.RunHrs, fb.UpdatedBy, fb.RecordDate, fb.LoadBatchID, fb.ComboKey, &#xD;&#xA;             IM.Uf_CNH_EngineeringFamilyCode AS [Engineering Family], IM.Uf_CNH_EngineeringSubFamilyCode AS [Engineering Sub Family], DI.ProductCodeDescr AS [Product Code Description], IM2.cur_u_cost AS [Current U Cost], fb.ExtQuantity * IM2.cur_u_cost AS ExtCost, &#xD;&#xA;             fb.SiteSortKey&#xD;&#xA;FROM   vw_Fact_BOM AS fb LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Warehouse_CSI.dbo.Dim_Item AS DI ON fb.RootPartId = DI.Item AND fb.SiteRef = DI.Site LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Stagearea_CSI.dbo.item_mst AS IM ON IM.item = fb.RootPartId AND IM.site_ref = fb.SiteRef LEFT OUTER JOIN&#xD;&#xA;             CNHReman_Stagearea_CSI.dbo.item_mst AS IM2 ON IM2.item = fb.PartId AND IM2.site_ref = fb.SiteRef" msprop:FriendlyName="Fact_BOM" msprop:TableType="View" msprop:DbTableName="Fact_BOM">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="RootPartId" msprop:FriendlyName="RootPartId" msprop:DbColumnName="RootPartId" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="SiteRef" msprop:FriendlyName="SiteRef" msprop:DbColumnName="SiteRef" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="PartId" msprop:FriendlyName="PartId" msprop:DbColumnName="PartId" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Lvl" msprop:FriendlyName="Lvl" msprop:DbColumnName="Lvl" type="xs:int" minOccurs="0" />
-                  <xs:element name="Sort" msprop:FriendlyName="Sort" msprop:DbColumnName="Sort" minOccurs="0">
+                  <xs:element name="Sort" msprop:FriendlyName="Sort" msprop:DbColumnName="Sort" msprop:design-time-name="f602742f-a28d-48e0-8c31-22e2963fa089" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SortPath" msprop:FriendlyName="SortPath" msprop:DbColumnName="SortPath" minOccurs="0">
+                  <xs:element name="SortPath" msprop:FriendlyName="SortPath" msprop:DbColumnName="SortPath" msprop:design-time-name="a47fefd6-501a-4d2b-9dc3-db9654f39c23" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="254" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Name" msprop:FriendlyName="Name" msprop:DbColumnName="Name" minOccurs="0">
+                  <xs:element name="Name" msprop:FriendlyName="Name" msprop:DbColumnName="Name" msprop:design-time-name="7412ae25-fd78-4c8e-bd97-b976df56af42" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="ItemDescription" msprop:FriendlyName="ItemDescription" msprop:DbColumnName="ItemDescription" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="254" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Stocked" msprop:FriendlyName="Stocked" msprop:DbColumnName="Stocked" minOccurs="0">
+                  <xs:element name="Stocked" msprop:FriendlyName="Stocked" msprop:DbColumnName="Stocked" msprop:design-time-name="d2d09471-f963-40c4-b39b-39567bfbdef7" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Source" msprop:FriendlyName="Source" msprop:DbColumnName="Source" minOccurs="0">
+                  <xs:element name="Source" msprop:FriendlyName="Source" msprop:DbColumnName="Source" msprop:design-time-name="ec9d7d56-2ea2-4526-9f64-95a78d25ac79" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Phantom" msprop:FriendlyName="Phantom" msprop:DbColumnName="Phantom" minOccurs="0">
+                  <xs:element name="Phantom" msprop:FriendlyName="Phantom" msprop:DbColumnName="Phantom" msprop:design-time-name="828c7269-7512-4092-a096-2540578757fd" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Job" msprop:FriendlyName="Job" msprop:DbColumnName="Job" minOccurs="0">
+                  <xs:element name="Job" msprop:FriendlyName="Job" msprop:DbColumnName="Job" msprop:design-time-name="ea31e233-9f8e-4830-bd8b-f75bc0444985" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="30" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PLAN_CODE" msprop:FriendlyName="PLAN_CODE" msprop:DbColumnName="PLAN_CODE" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="20" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Oper" msprop:FriendlyName="Oper" msprop:DbColumnName="Oper" type="xs:int" minOccurs="0" />
-                  <xs:element name="Seq" msprop:FriendlyName="Seq" msprop:DbColumnName="Seq" type="xs:short" minOccurs="0" />
-                  <xs:element name="PullID" msprop:FriendlyName="PullID" msprop:DbColumnName="PullID" minOccurs="0">
+                  <xs:element name="PullID" msprop:FriendlyName="PullID" msprop:DbColumnName="PullID" msprop:design-time-name="4447f66a-9a36-4f52-9fbb-45ec719c90ab" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="OptGrp" msprop:FriendlyName="OptGrp" msprop:DbColumnName="OptGrp" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="OptID" msprop:FriendlyName="OptID" msprop:DbColumnName="OptID" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Equiv" msprop:FriendlyName="Equiv" msprop:DbColumnName="Equiv" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="OrigQty" msprop:FriendlyName="OrigQty" msprop:DbColumnName="OrigQty" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="Repl" msprop:FriendlyName="Repl" msprop:DbColumnName="Repl" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="NetQty" msprop:FriendlyName="NetQty" msprop:DbColumnName="NetQty" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="ExtQuantity" msprop:FriendlyName="ExtQuantity" msprop:DbColumnName="ExtQuantity" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="ExtRepl" msprop:FriendlyName="ExtRepl" msprop:DbColumnName="ExtRepl" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="RunHrs" msprop:FriendlyName="RunHrs" msprop:DbColumnName="RunHrs" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="UpdatedBy" msprop:FriendlyName="UpdatedBy" msprop:DbColumnName="UpdatedBy" minOccurs="0">
+                  <xs:element name="Repl" msprop:FriendlyName="Repl" msprop:DbColumnName="Repl" msprop:design-time-name="0b37c594-2727-4fb8-b3a9-25539ac0a36b" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="NetQty" msprop:FriendlyName="NetQty" msprop:DbColumnName="NetQty" msprop:design-time-name="868e9d68-f486-4d85-b38b-6342e5d3ae1a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ExtQuantity" msprop:FriendlyName="ExtQuantity" msprop:DbColumnName="ExtQuantity" msprop:design-time-name="88b27013-ab47-4817-be69-7ab658514bb6" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ExtRepl" msprop:FriendlyName="ExtRepl" msprop:DbColumnName="ExtRepl" msprop:design-time-name="91e7640c-a8d1-4b2b-ae79-c0b4a27db9c4" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RunHrs" msprop:FriendlyName="RunHrs" msprop:DbColumnName="RunHrs" msprop:design-time-name="961a4667-3d10-495b-a577-7b5286da9a3d" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="UpdatedBy" msprop:FriendlyName="UpdatedBy" msprop:DbColumnName="UpdatedBy" msprop:design-time-name="ccf4eeec-4961-43e0-89c2-13f251736813" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="128" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="RecordDate" msprop:FriendlyName="RecordDate" msprop:DbColumnName="RecordDate" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="LoadBatchID" msprop:FriendlyName="LoadBatchID" msprop:DbColumnName="LoadBatchID" type="xs:long" minOccurs="0" />
-                  <xs:element name="ComboKey" msprop:FriendlyName="ComboKey" msprop:DbColumnName="ComboKey" minOccurs="0">
+                  <xs:element name="RecordDate" msprop:FriendlyName="RecordDate" msprop:DbColumnName="RecordDate" msprop:design-time-name="821f44da-3760-4b46-aa64-252c4a419a7a" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="LoadBatchID" msprop:FriendlyName="LoadBatchID" msprop:DbColumnName="LoadBatchID" msprop:design-time-name="547f4f36-3169-4b7b-bc38-5bc56aeb64f9" type="xs:long" minOccurs="0" />
+                  <xs:element name="ComboKey" msprop:FriendlyName="ComboKey" msprop:DbColumnName="ComboKey" msprop:design-time-name="a486dfad-5812-49a9-8f9f-84b6f3d2a1cd" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Uf_CNH_EngineeringFamilyCode" msprop:DbColumnName="Uf_CNH_EngineeringFamilyCode" minOccurs="0">
+                  <xs:element name="ExtCost" msprop:DbColumnName="ExtCost" msprop:design-time-name="12594af7-d1c2-4e01-9c98-95e46cdacce4" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Root_x0020_Part" msprop:design-time-name="8c4d3d1a-d8fc-4c3d-b18a-6f0a09da404d" msprop:DbColumnName="Root Part" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Uf_CNH_EngineeringSubFamilyCode" msprop:DbColumnName="Uf_CNH_EngineeringSubFamilyCode" minOccurs="0">
+                  <xs:element name="Site" msprop:design-time-name="0fc4f191-78ef-43fc-8c1a-7745f74bcc4c" msprop:DbColumnName="Site" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Component" msprop:design-time-name="b26d88fa-c467-4b6f-ab29-9ab843860698" msprop:DbColumnName="Component" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="ProductCodeDescr" msprop:DbColumnName="ProductCodeDescr" minOccurs="0">
+                  <xs:element name="Level" msprop:design-time-name="6a2519c9-104d-486c-bd9a-246627d06b2e" msprop:DbColumnName="Level" type="xs:int" minOccurs="0" />
+                  <xs:element name="Component_x0020_Description" msprop:design-time-name="ae1658a7-6f29-4184-ba3a-cc872815473f" msprop:DbColumnName="Component Description" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="254" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Plan_x0020_Code" msprop:design-time-name="b495ac94-a824-4311-9524-64bf516f346a" msprop:DbColumnName="Plan Code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Operation" msprop:design-time-name="854463eb-c52f-4ff0-a566-ae46a3afe20d" msprop:DbColumnName="Operation" type="xs:int" minOccurs="0" />
+                  <xs:element name="Sequence" msprop:design-time-name="a175599a-4a97-4e55-b9e6-10bf26108c52" msprop:DbColumnName="Sequence" type="xs:short" minOccurs="0" />
+                  <xs:element name="Option_x0020_Group" msprop:design-time-name="c64c2e3e-fc68-4ad4-8414-2d3fdcde4954" msprop:DbColumnName="Option Group" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Option_x0020_ID" msprop:design-time-name="e2abc958-d63c-4dc4-9a60-e5c97dbe27ad" msprop:DbColumnName="Option ID" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Equivalent" msprop:design-time-name="de8a840d-8641-4a93-9d98-64b7fd527b58" msprop:DbColumnName="Equivalent" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Quantity" msprop:design-time-name="06f6c403-0ec6-498e-be2c-71693e519ddf" msprop:DbColumnName="Quantity" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Engineering_x0020_Family" msprop:design-time-name="2c63c73f-5519-4d35-bba9-a755ffb9b9cd" msprop:DbColumnName="Engineering Family" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Engineering_x0020_Sub_x0020_Family" msprop:design-time-name="54de00b8-60dc-4be0-882b-b2c0ad429a95" msprop:DbColumnName="Engineering Sub Family" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Product_x0020_Code_x0020_Description" msprop:design-time-name="13421f76-4195-458f-ad84-50c36050a291" msprop:DbColumnName="Product Code Description" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="40" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="cur_u_cost" msprop:DbColumnName="cur_u_cost" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="ExtCost" msprop:DbColumnName="ExtCost" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Current_x0020_U_x0020_Cost" msprop:design-time-name="5417fbe4-509f-4114-afba-c0a653ab2802" msprop:DbColumnName="Current U Cost" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="SiteSortKey" msprop:design-time-name="01305525-84c5-4b61-bd90-bf110b2094e6" msprop:DbColumnName="SiteSortKey" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="121" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
