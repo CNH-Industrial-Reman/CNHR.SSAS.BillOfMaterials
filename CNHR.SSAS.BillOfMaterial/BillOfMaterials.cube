@@ -1,0 +1,1050 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BillOfMaterials</ID>
+  <Name>BillOfMaterials</Name>
+  <CreatedTimestamp>2026-03-24T16:22:29.823333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2026-06-04T14:20:57.77Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14748" scrolltop="-5517" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7285" y="15787" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_BOM" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3149" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_BOM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-14748</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5517</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2026-09-01T17:11:33.256667Z</LastProcessed>
+  <State>Processed</State>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <Dimensions>
+    <Dimension>
+      <ID>Fact BOM</ID>
+      <Name>Fact BOM</Name>
+      <DimensionID>Fact BOM</DimensionID>
+      <Attributes>
+        <Attribute>
+          <AttributeID>Root Part Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Site Ref</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Part Id</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Lvl</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Sort</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Sort Path</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Item Description</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Stocked</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Source</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Phantom</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Job</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>PLAN CODE</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Oper</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Seq</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Pull ID</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Opt Grp</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Opt ID</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Equiv</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Load Batch ID</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Combo Key</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Uf CNH Engineering Family Code</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Uf CNH Engineering Sub Family Code</AttributeID>
+        </Attribute>
+        <Attribute>
+          <AttributeID>Product Code Descr</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission>
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>2026-03-24T20:20:38.746667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2026-06-04T14:20:57.8Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact BOM</ID>
+      <Name>Fact BOM</Name>
+      <CreatedTimestamp>2026-03-24T16:22:29.836667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2026-06-04T14:20:57.783333Z</LastSchemaUpdate>
+      <LastProcessed>2026-09-01T17:11:33.256667Z</LastProcessed>
+      <State>Processed</State>
+      <Measures>
+        <Measure>
+          <ID>Orig Qty</ID>
+          <Name>Orig Qty</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>OrigQty</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Repl</ID>
+          <Name>Repl</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>Repl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Net Qty</ID>
+          <Name>Net Qty</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>NetQty</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Ext Quantity</ID>
+          <Name>Ext Quantity</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>ExtQuantity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Ext Repl</ID>
+          <Name>Ext Repl</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>ExtRepl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Run Hrs</ID>
+          <Name>Run Hrs</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>#,##0.00;-#,##0.00</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>RunHrs</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Fact BOM Count</ID>
+          <Name>Fact BOM Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source>
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Cur u Cost</ID>
+          <Name>Cur u Cost</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>$#,##0.00;($#,##0.00)</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>cur_u_cost</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure>
+          <ID>Ext Cost</ID>
+          <Name>Ext Cost</Name>
+          <DataType>Double</DataType>
+          <Source>
+            <DataType>Double</DataType>
+            <Format>$#,##0.00;($#,##0.00)</Format>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Fact_BOM</TableID>
+              <ColumnID>ExtCost</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>370404550</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension">
+          <CubeDimensionID>Fact BOM</CubeDimensionID>
+          <Cardinality>One</Cardinality>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Root Part Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>PartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Lvl</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>254</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SortPath</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Name</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>254</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>ItemDescription</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>LoadBatchID</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>ComboKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Site Ref</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Part Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Lvl</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Sort</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Sort Path</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Item Description</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Stocked</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Source</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Phantom</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Job</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>PLAN CODE</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Oper</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Seq</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Pull ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Opt Grp</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Opt ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Equiv</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Load Batch ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>20</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>SiteRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Combo Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>ComboKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Sort</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>RootPartId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Uf CNH Engineering Family Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Uf_CNH_EngineeringFamilyCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Uf CNH Engineering Sub Family Code</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>Uf_CNH_EngineeringSubFamilyCode</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Product Code Descr</AttributeID>
+              <KeyColumns>
+                <KeyColumn>
+                  <DataType>WChar</DataType>
+                  <DataSize>40</DataSize>
+                  <Source xsi:type="ColumnBinding">
+                    <TableID>dbo_Fact_BOM</TableID>
+                    <ColumnID>ProductCodeDescr</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions>
+        <Partition>
+          <ID>Fact BOM</ID>
+          <Name>Fact BOM</Name>
+          <CreatedTimestamp>2026-03-24T16:22:29.836667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2026-06-04T14:20:57.783333Z</LastSchemaUpdate>
+          <LastProcessed>2026-09-01T17:11:33.223333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding">
+            <DataSourceViewID>CNH Reman Warehouse</DataSourceViewID>
+            <TableID>dbo_Fact_BOM</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching>
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" />
+          </ProactiveCaching>
+          <EstimatedSize>370404550</EstimatedSize>
+        </Partition>
+      </Partitions>
+      <ProactiveCaching>
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source>
+    <DataSourceViewID>CNH Reman Warehouse</DataSourceViewID>
+  </Source>
+  <ProactiveCaching>
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" />
+  </ProactiveCaching>
+</Cube>
