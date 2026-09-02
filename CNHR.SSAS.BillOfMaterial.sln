@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37012.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CNHR.SSAS.BillOfMaterials", "CNHR.SSAS.BillOfMaterials\CNHR.SSAS.BillOfMaterials.dwproj", "{C061FDAC-1E80-3FB0-2CB1-4E9543E06A80}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CNHR.SSAS.BillOfMaterial", "CNHR.SSAS.BillOfMaterial\CNHR.SSAS.BillOfMaterial.dwproj", "{B601C849-02E8-52D0-C206-80943C8AB07E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C061FDAC-1E80-3FB0-2CB1-4E9543E06A80}.Development|Default.ActiveCfg = Development
-		{C061FDAC-1E80-3FB0-2CB1-4E9543E06A80}.Development|Default.Build.0 = Development
-		{C061FDAC-1E80-3FB0-2CB1-4E9543E06A80}.Development|Default.Deploy.0 = Development
+		{B601C849-02E8-52D0-C206-80943C8AB07E}.Development|Default.ActiveCfg = Development
+		{B601C849-02E8-52D0-C206-80943C8AB07E}.Development|Default.Build.0 = Development
+		{B601C849-02E8-52D0-C206-80943C8AB07E}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2C99D130-D298-4343-8C35-1C6920A2F097}
+		SolutionGuid = {CB5C32B0-3036-48BE-88A8-6EF3FA9E70BF}
 	EndGlobalSection
 EndGlobal
